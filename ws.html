@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.post demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+ 
+<script>
+$.post( "http://localhost:8084/WebTrabalho/Gerente", { op: "John"})
+  .done(function( data ) {
+    alert( "Data Loaded: " + data );
+  });
+</script>
+ 
+</body>
+</html>
+
