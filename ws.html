@@ -9,7 +9,7 @@
  
  
 <script>
-$.post( "http://localhost:8084/WebTrabalho/Gerente", { op: "John"})
+$.post( "http://localhost:8084/WebTrabalho/Gerente", { lat: "Latitude", lon: "Longitude", img: "Imagem em bytes", desc: "Descrição"})
   .done(function( data ) {
     alert( "Data Loaded: " + data );
   });
